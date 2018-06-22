@@ -25,8 +25,8 @@ puts '5 skills created'
     title: Faker::Lorem.sentence,
     subtitle: Faker::Lorem.sentence,
     body: Faker::Lorem.paragraph,
-    main_image: Faker::LoremPixel.image,
-    thumb_image: Faker::LoremPixel.image
+    main_image: Faker::Placeholdit.image,
+    thumb_image: Faker::Placeholdit.image('50x50')
   )
 end
 
