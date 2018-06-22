@@ -23,7 +23,7 @@ puts '5 skills created'
 9.times do
   Portfolio.create!(
     title: Faker::Lorem.sentence,
-    subtite: Faker::Lorem.sentence,
+    subtitle: Faker::Lorem.sentence,
     body: Faker::Lorem.paragraph,
     main_image: Faker::LoremPixel.image,
     thumb_image: Faker::LoremPixel.image

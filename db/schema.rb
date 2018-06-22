@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_21_220105) do
+ActiveRecord::Schema.define(version: 2018_06_22_002450) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2018_06_21_220105) do
 
   create_table "portfolios", force: :cascade do |t|
     t.string "title"
-    t.string "subtite"
+    t.string "subtitle"
     t.text "body"
     t.text "main_image"
     t.text "thumb_image"
