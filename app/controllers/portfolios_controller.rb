@@ -7,6 +7,10 @@ class PortfoliosController < ApplicationController
     @portfolio_item = Portfolio.new
   end
 
+  def react
+    @portfolio_item = Portfolio.react
+  end
+
   def create
     @portfolio_item = Portfolio.new(params.require(:portfolio).permit(:title, :subtitle, :body))
 
