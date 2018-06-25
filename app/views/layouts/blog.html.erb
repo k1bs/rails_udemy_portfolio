@@ -23,7 +23,7 @@
     <% end %>
     <%= yield %>
 
-    <%= render 'partials/nav' %>
+    <%= render 'partials/nav', location: 'bottom' %>
 
     <% if session[:source] %>
       Thanks for visiting me from <%= session[:source] %>
