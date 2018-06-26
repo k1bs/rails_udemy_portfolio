@@ -14,4 +14,9 @@ module ApplicationHelper
     greeting = "Thanks for visiting me from #{session[:source]}"
     content_tag(:p, greeting, class: 'source-greeting')
   end
+
+  def copyright_generator
+    K1bsViewTool::Renderer.copyright 'Alex Kibler',
+                                     'All rights reserved'
+  end
 end

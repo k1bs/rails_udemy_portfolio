@@ -65,3 +65,5 @@ gem 'devise', '~> 4.2'
 gem 'bootstrap', '~> 4.1.1'
 
 gem 'jquery-rails'
+
+gem 'k1bs_view_tool', git: 'https://github.com/k1bs/k1bs_view_tool'
