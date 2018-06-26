@@ -61,3 +61,7 @@ gem 'faker', '~> 1.8'
 gem 'friendly_id', '~> 5.1.0'
 
 gem 'devise', '~> 4.2'
+
+gem 'bootstrap', '~> 4.1.1'
+
+gem 'jquery-rails'
