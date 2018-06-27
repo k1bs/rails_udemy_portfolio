@@ -62,9 +62,9 @@ gem 'friendly_id', '~> 5.1.0'
 
 gem 'devise', '~> 4.2'
 
-gem 'bootstrap', '~> 4.1.1'
-
 gem 'jquery-rails'
+
+gem 'bootstrap', '~> 4.1.1'
 
 gem 'k1bs_view_tool', git: 'https://github.com/k1bs/k1bs_view_tool'
 
